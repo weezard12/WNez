@@ -323,11 +323,6 @@ namespace Nez
 			EndDebugDraw();
 		}
 
-		protected override void OnExiting(object sender, EventArgs args)
-		{
-			base.OnExiting(sender, args);
-			Emitter.Emit(CoreEvents.Exiting);
-		}
 
 		#endregion
 
