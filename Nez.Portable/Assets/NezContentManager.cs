@@ -41,7 +41,7 @@ namespace Nez.Systems
 			}
 		}
 
-#if FNA
+
 		Dictionary<string, object> _loadedAssets;
 		Dictionary<string, object> LoadedAssets
 		{
@@ -55,7 +55,7 @@ namespace Nez.Systems
 				return _loadedAssets;
 			}
 		}
-#endif
+
 
 
 		public NezContentManager(IServiceProvider serviceProvider, string rootDirectory) : base(serviceProvider, rootDirectory)

@@ -24,7 +24,7 @@ namespace Nez
 		public NezSpriteFont(SpriteFont font)
 		{
 			_font = font;
-			_glyphs = font.GetGlyphs();
+			//CHANGE _glyphs = font.GetGlyphs();
 		}
 
 
